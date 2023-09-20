@@ -1,0 +1,1 @@
+place template pumpkin_carve_0 -20 -60 17
