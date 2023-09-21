@@ -1,3 +1,6 @@
+execute as @a[tag=is_awaiting_tp_0] at @s run kill @e[type=bee,distance=..50]
+execute as @a[tag=is_awaiting_tp_0] at @s run kill @e[type=arrow,distance=..50]
+execute as @a[tag=is_awaiting_tp_0] at @s run kill @e[type=item,distance=..50]
 execute as @a[tag=is_awaiting_tp_0] run tp @s 16.46 65.00 -38.82 -61.48 0.38
 execute as @a[tag=is_awaiting_tp_0] run tag @s remove is_getting_honey
 execute as @a[tag=is_awaiting_tp_0] run setblock 12 65 -41 barrier destroy
