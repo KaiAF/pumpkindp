@@ -1,3 +1,3 @@
-summon bee ~ ~ ~
-summon bee ~ ~ ~
-summon bee ~ ~ ~
+execute as @s at @s run summon bee ~ ~ ~
+execute as @s at @s run summon bee ~ ~ ~
+execute as @s at @s run summon bee ~ ~ ~
