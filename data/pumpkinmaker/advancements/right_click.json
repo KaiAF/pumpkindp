@@ -9,5 +9,7 @@
       }
     }
   },
-  "rewards": {}
+  "rewards": {
+    "function": "pumpkinmaker:utils/honey_pot/click"
+  }
 }
