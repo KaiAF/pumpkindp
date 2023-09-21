@@ -13,7 +13,7 @@ execute if block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] is
 execute unless block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] isCarving 0
 
 # execute as @e[type=arrow,nbt={inBlockState: {Name: "minecraft:pointed_dripstone", Properties: {thickness: "base"}}}] at @s run summon item ~ ~ ~ {Item: {id: "honeycomb", Count: 1b}}
-execute as @e[type=arrow,nbt={inBlockState: {Name: "minecraft:pointed_dripstone", Properties: {thickness: "base"}}}] at @s run function pumpkinmaker:utils/bee_nest/bee_attack
+execute as @e[type=arrow,nbt={inBlockState: {Name: "minecraft:pointed_dripstone", Properties: {thickness: "base"}}}] at @s run execute as @a[tag=is_getting_honey,limit=1] run function pumpkinmaker:utils/bee_nest/bee_attack
 execute as @e[type=arrow,nbt={inBlockState: {Name: "minecraft:pointed_dripstone", Properties: {thickness: "base"}}}] at @s run scoreboard players add $bee destroyed_honey 1
 execute as @e[type=arrow,nbt={inBlockState: {Name: "minecraft:pointed_dripstone", Properties: {thickness: "base"}}}] at @s run place template dripstone_hitbox_air ~-.5 ~ ~-.5
 execute as @e[type=arrow,nbt={inBlockState: {Name: "minecraft:pointed_dripstone", Properties: {thickness: "base"}}}] at @s run summon bee ~-.5 ~ ~-.5 {AngerTime: 999999999}
