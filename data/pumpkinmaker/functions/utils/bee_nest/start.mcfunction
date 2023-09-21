@@ -9,10 +9,9 @@ fill -230 65 -46 -230 65 -46 minecraft:pointed_dripstone[vertical_direction=down
 fill -230 64 -46 -230 64 -46 minecraft:pointed_dripstone[vertical_direction=down,thickness=tip] keep
 
 execute at @s run summon bee ~ ~ ~
-# execute at @s run summon bee ~ ~ ~
-# execute at @s run summon bee ~ ~ ~
+execute at @s run summon bee ~ ~ ~
+execute at @s run summon bee ~ ~ ~
 
-schedule function pumpkinmaker:utils/bee_nest/bee_spawn 5t
-schedule function pumpkinmaker:utils/bee_nest/bee_attack 10t
+schedule function pumpkinmaker:utils/bee_nest/bee_attack 5t
 
 tag @s add is_getting_honey
