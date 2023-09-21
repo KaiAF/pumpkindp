@@ -1,4 +1,4 @@
-setblock -230 53 -38 barrier destroy
+setblock -230 53 -38 barrier replace
 # Murder
 execute at @s run kill @e[type=bee,distance=..50]
 execute at @s run kill @e[type=arrow,distance=..50]
@@ -39,9 +39,9 @@ fill -217 62 -33 -217 62 -33 minecraft:pointed_dripstone[vertical_direction=down
 fill -217 61 -33 -217 61 -33 minecraft:pointed_dripstone[vertical_direction=down,thickness=frustum] destroy
 fill -217 60 -33 -217 60 -33 minecraft:pointed_dripstone[vertical_direction=down,thickness=tip] destroy
 # Summon bees
-execute at @s run summon bee ~ ~ ~
-execute at @s run summon bee ~ ~ ~
-execute at @s run summon bee ~ ~ ~
+execute at @s run summon bee ~ ~ ~ {AngerTime: 999999999}
+execute at @s run summon bee ~ ~ ~ {AngerTime: 999999999}
+execute at @s run summon bee ~ ~ ~ {AngerTime: 999999999}
 # Attack the bees
 schedule function pumpkinmaker:utils/bee_nest/bee_attack 5t
 # Add the proper tag to store who is getting the honey
