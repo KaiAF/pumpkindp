@@ -23,7 +23,7 @@ execute as @a run execute store result score @s xpos run data get entity @s Pos[
 execute as @a run execute store result score @s ypos run data get entity @s Pos[1]
 execute as @a run execute store result score @s zpos run data get entity @s Pos[2]
 
-execute as @a if score @s xpos matches 12 if score @s zpos matches -41 run function pumpkinmaker:utils/bee_nest/teleport
+execute as @a[gamemode=!creative] if score @s xpos matches 12 if score @s zpos matches -41 run function pumpkinmaker:utils/bee_nest/teleport
 execute as @a[tag=is_awaiting_tp_0] if score @s xpos matches -230 if score @s zpos matches -38 run function pumpkinmaker:utils/bee_nest/end
 execute as @a[tag=is_awaiting_tp_0] run function pumpkinmaker:utils/bee_nest/create_door
 
