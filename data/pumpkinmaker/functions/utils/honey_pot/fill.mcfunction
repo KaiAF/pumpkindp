@@ -8,4 +8,5 @@ execute if score @s honey_in_inventory matches 3..4 run clear @s pointed_dripsto
 execute if score @s honey_in_inventory matches 5..6 run setblock 7 66 -36 decorated_pot{sherds: ["minecraft:danger_pottery_sherd", "minecraft:danger_pottery_sherd", "minecraft:danger_pottery_sherd", "minecraft:danger_pottery_sherd"]} destroy
 execute if score @s honey_in_inventory matches 5..6 run clear @s pointed_dripstone 6
 execute if score @s honey_in_inventory matches 8.. run setblock 7 66 -36 decorated_pot{sherds: ["minecraft:howl_pottery_sherd", "minecraft:howl_pottery_sherd", "minecraft:howl_pottery_sherd", "minecraft:howl_pottery_sherd"]} destroy
+execute if score @s honey_in_inventory matches 8.. run give @s honey_block
 execute if score @s honey_in_inventory matches 8.. run clear @s pointed_dripstone
