@@ -1,0 +1,1 @@
+execute as @e[type=bee] at @s run damage @s 1 player_attack by @p
