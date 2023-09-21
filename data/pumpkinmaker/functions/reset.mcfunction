@@ -33,4 +33,6 @@ fill -21 -61 20 -12 -61 16 grass_block
 
 # execute as @e[type=interaction] run summon block_display ~ ~ ~ {Glowing: 1b, Tags: ["toCarve"], transformation: {left_rotation: [0f, 0f, 0f, 1f], right_rotation: [0f, 0f, 0f, 1f], translation: [-0.5f, 0f, -0.5f], scale: [1f, 1f, 1f]}, block_state: {Name: "minecraft:pumpkin"}}
 
+say test
+
 title @a actionbar {"text": "Reset successful", "color": "green"}
