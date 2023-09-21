@@ -40,3 +40,6 @@ execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey ma
 execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run playsound entity.arrow.hit_player master @s ~ ~ ~ 1 1 1
 execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run setblock -230 53 -38 emerald_block destroy
 execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run tag @s remove is_getting_honey
+# Kill dripstone item
+# execute as @a[tag=is_getting_honey] run kill @e[type=item,nbt={Item: {id: "pointed_dripstone"}}]
+execute as @e[type=item,nbt={Item: {id: "minecraft:pointed_dripstone"}}] at @s run function pumpkinmaker:utils/bee_nest/resummon_honey
