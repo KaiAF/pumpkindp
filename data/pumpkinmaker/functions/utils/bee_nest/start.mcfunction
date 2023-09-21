@@ -8,10 +8,7 @@ fill -230 66 -46 -230 66 -46 minecraft:pointed_dripstone[vertical_direction=down
 fill -230 65 -46 -230 65 -46 minecraft:pointed_dripstone[vertical_direction=down,thickness=frustum] keep
 fill -230 64 -46 -230 64 -46 minecraft:pointed_dripstone[vertical_direction=down,thickness=tip] keep
 
-execute at @s run summon bee ~ ~ ~
-
-# this does not really work well
-execute as @e[type=bee] run damage @s 1 player_attack by @p
+schedule function pumpkinmaker:utils/bee_nest/debug_bee_attack 5t
 
 tag @s add is_getting_honey
 
