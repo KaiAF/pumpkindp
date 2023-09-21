@@ -1,3 +1,4 @@
+setblock -230 53 -38 barrier destroy
 # Murder
 execute at @s run kill @e[type=bee,distance=..50]
 execute at @s run kill @e[type=arrow,distance=..50]

@@ -31,9 +31,11 @@ execute as @a[tag=is_getting_honey] run execute store result score $bee bee_arro
 execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run tag @s add is_awaiting_tp_0
 execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run title @s actionbar {"text": "You may leave the hive now. The door is open.","underlined": true}
 execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run playsound entity.arrow.hit_player master @s ~ ~ ~ 1 1 1
+execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run setblock -230 53 -38 emerald_block destroy
 execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run tag @s remove is_getting_honey
 # or if they destroyed all the honey
 execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run tag @s add is_awaiting_tp_0
 execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run title @s actionbar {"text": "You may leave the hive now. The door is open.","underlined": true}
 execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run playsound entity.arrow.hit_player master @s ~ ~ ~ 1 1 1
+execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run setblock -230 53 -38 emerald_block destroy
 execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run tag @s remove is_getting_honey
