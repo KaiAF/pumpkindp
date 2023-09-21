@@ -1,5 +1,8 @@
 advancement revoke @s only pumpkinmaker:left_click
 
+# Don't kill honey deposit!
+execute as @e[type=interaction,distance=..6,tag=honey_deposit] run return 0
+
 tag @s add this
 
 execute as @e[type=interaction,distance=..6] run function pumpkinmaker:utils/carve
