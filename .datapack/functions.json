@@ -1,1 +1,1 @@
-{"pumpkinmaker":{"utils":{"bee_nest":{"$func":["debug_bee_attack","teleport","start","reset","end","debug_bee_attack"]},"$func":["left_click","carve"]},"$func":["start_carving","reset","main","end_carving"]}}
+{"pumpkinmaker":{"utils":{"bee_nest":{"$func":["bee_attack","teleport","start","reset","end","bee_attack","bee_spawn"]},"$func":["left_click","carve"]},"$func":["end_carving","start_carving","reset","main"]}}
