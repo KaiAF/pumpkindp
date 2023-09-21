@@ -25,6 +25,9 @@ scoreboard objectives add zpos dummy
 scoreboard objectives remove bee_arrows_left
 scoreboard objectives add bee_arrows_left dummy
 
+scoreboard objectives remove destroyed_honey
+scoreboard objectives add destroyed_honey dummy
+
 fill -13 -61 16 -21 -52 20 air
 fill -21 -61 20 -12 -61 16 grass_block
 
