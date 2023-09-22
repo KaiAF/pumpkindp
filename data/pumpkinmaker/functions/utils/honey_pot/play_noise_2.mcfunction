@@ -1,1 +1,1 @@
-playsound minecraft:block.beehive.drip master @a[tag=player_2] 9 66 -33 1 1
+playsound minecraft:block.beehive.drip master @a[team=player_2] 9 66 -33 1 1
