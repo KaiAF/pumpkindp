@@ -43,14 +43,13 @@ team add player_2
 team add player_3
 team add player_4
 
-scoreboard objectives remove player_1
-scoreboard objectives remove player_2
-scoreboard objectives remove player_3
-scoreboard objectives remove player_4
-scoreboard objectives add player_1 dummy
-scoreboard objectives add player_2 dummy
-scoreboard objectives add player_3 dummy
-scoreboard objectives add player_4 dummy
+team modify player_1 color aqua
+team modify player_2 color blue
+team modify player_3 color dark_aqua
+team modify player_4 color red
+
+scoreboard objectives remove teams
+scoreboard objectives add teams dummy
 
 scoreboard objectives remove pot_level
 scoreboard objectives add pot_level dummy
