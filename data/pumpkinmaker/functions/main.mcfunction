@@ -24,7 +24,7 @@ execute as @a run execute store result score @s ypos run data get entity @s Pos[
 execute as @a run execute store result score @s zpos run data get entity @s Pos[2]
 
 execute as @a[gamemode=!creative] if score @s xpos matches 13 if score @s zpos matches -41 run function pumpkinmaker:utils/bee_nest/teleport
-execute as @a[gamemode=!creative] if score @s xpos matches -236 if score @s zpos matches -38 run function pumpkinmaker:utils/bee_nest/end
+execute as @a[gamemode=!creative] if score @s xpos matches -237 if score @s zpos matches -38 run function pumpkinmaker:utils/bee_nest/end
 function pumpkinmaker:utils/bee_nest/create_door
 
 # Teleport player outside of bee nest if they run out of arrows
