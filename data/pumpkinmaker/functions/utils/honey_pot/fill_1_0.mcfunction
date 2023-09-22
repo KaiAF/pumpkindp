@@ -8,6 +8,8 @@ execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches
 execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches 3 run execute as @s at @s run schedule function pumpkinmaker:utils/honey_pot/play_noise_1_0 10t append
 execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches 3 run execute as @s at @s run schedule function pumpkinmaker:utils/honey_pot/play_noise_1_0 20t append
 execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches 3 run execute as @s at @s run schedule function pumpkinmaker:utils/honey_pot/play_noise_1_0 40t append
+execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches 3 run tag @s remove honey_deposit
+execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches 3 run tag @s add honey_collect
 execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches 3 run schedule function pumpkinmaker:utils/honey_pot/hardened_1_0 4s replace
 execute if score @s honey_in_inventory matches 2.. run scoreboard players add @s pot_level 1
 execute if score @s honey_in_inventory matches 2.. if score @s pot_level matches 0..3 run clear @s pointed_dripstone 2

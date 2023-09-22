@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "interaction",
-          "nbt": "{Tags:['honey_deposit','player_1_0'], sherds:['minecraft:blade_pottery_sherd', 'minecraft:blade_pottery_sherd', 'minecraft:blade_pottery_sherd', 'minecraft:blade_pottery_sherd']}"
+          "nbt": "{Tags:['honey_collect','player_1_0']}"
         }
       }
     }
