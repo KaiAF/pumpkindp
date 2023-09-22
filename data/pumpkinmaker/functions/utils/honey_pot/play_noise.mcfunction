@@ -1,1 +1,1 @@
-playsound minecraft:block.beehive.drip ambient @a ~ ~ ~ 1 1
+playsound minecraft:block.beehive.drip ambient @s ~ ~ ~ 1 1
