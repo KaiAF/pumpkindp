@@ -28,8 +28,8 @@ execute if score $players stats matches 4 run summon interaction 9 66 -33 {Tags:
 execute if score $players stats matches 4 run summon interaction 5 66 -36 {Tags:["honey_deposit","player_3"]}
 execute if score $players stats matches 4 run summon interaction 7 66 -34 {Tags:["honey_deposit","player_4"]}
 
-execute as @a[team=] run team join player_1 @e[limit=1,team=!player_1]
-execute as @a[team=] run team join player_2 @e[limit=1,team=!player_2]
-execute as @a[team=] run team join player_3 @e[limit=1,team=!player_3]
-execute as @a[team=] run team join player_4 @e[limit=1,team=!player_4]
+execute as @a[team=] run team join player_1 @p[limit=1]
+execute as @a[team=] run team join player_2 @p[limit=1]
+execute as @a[team=] run team join player_3 @p[limit=1]
+execute as @a[team=] run team join player_4 @p[limit=1]
 
