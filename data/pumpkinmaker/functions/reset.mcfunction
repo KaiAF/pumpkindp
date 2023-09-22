@@ -43,6 +43,9 @@ team add player_2
 team add player_3
 team add player_4
 
+scoreboard objectives remove pot_level
+scoreboard objectives add pot_level dummy
+
 fill -13 -61 16 -21 -52 20 air
 fill -21 -61 20 -12 -61 16 grass_block
 
