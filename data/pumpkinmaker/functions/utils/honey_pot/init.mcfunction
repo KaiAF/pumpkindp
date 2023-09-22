@@ -1,6 +1,7 @@
 scoreboard players set $players stats 0
 
 kill @e[type=interaction,tag=honey_deposit]
+kill @e[type=interaction,tag=honey_collect]
 
 execute as @a run scoreboard players add $players stats 1
 
