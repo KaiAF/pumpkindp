@@ -4,6 +4,12 @@ kill @e[type=interaction,tag=honey_deposit]
 
 execute as @a run scoreboard players add $players stats 1
 
+fill 7 65 -36 7 66 -36 air
+fill 4 65 -38 4 66 -38 air
+fill 9 65 -33 9 66 -33 air
+fill 5 65 -36 5 66 -36 air
+fill 7 65 -34 7 66 -34 air
+
 execute if score $players stats matches 1 run place template honey_pot 6 65 -37 none none 1 0
 execute if score $players stats matches 1 run summon interaction 7 66 -36 {Tags:["honey_deposit","player_1_0"]}
 
