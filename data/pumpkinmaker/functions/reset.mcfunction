@@ -34,6 +34,15 @@ scoreboard objectives add honey_in_inventory dummy
 scoreboard objectives remove stats
 scoreboard objectives add stats dummy
 
+team remove player_1
+team remove player_2
+team remove player_3
+team remove player_4
+team add player_1
+team add player_2
+team add player_3
+team add player_4
+
 fill -13 -61 16 -21 -52 20 air
 fill -21 -61 20 -12 -61 16 grass_block
 
