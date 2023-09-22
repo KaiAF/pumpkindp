@@ -1,5 +1,8 @@
 - make exit door on bee hive stay open
 - make dripstone eventually re-appear, slowly overtime
 - retexture dripstone item, or kill the dripstone item after it's been shot.
+- move barrier blocks to the new bee tp
+
+- sort of recode how the honey deposit pot works. Makes it where it is done via scoreboard, so it can increment based on the amount of honey that was deposited.
 
 /summon minecraft:interaction 7 66.00 -36 {width:1.2,height:1.3,Tags:['honey_deposit']}

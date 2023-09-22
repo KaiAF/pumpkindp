@@ -31,6 +31,9 @@ scoreboard objectives add destroyed_honey dummy
 scoreboard objectives remove honey_in_inventory
 scoreboard objectives add honey_in_inventory dummy
 
+scoreboard objectives remove stats
+scoreboard objectives add stats dummy
+
 fill -13 -61 16 -21 -52 20 air
 fill -21 -61 20 -12 -61 16 grass_block
 
