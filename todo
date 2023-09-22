@@ -1,5 +1,7 @@
-- make dripstone eventually re-appear, slowly overtime
-- retexture dripstone item, or kill the dripstone item after it's been shot.
+# TODO
+
+- make dripstone eventually re-appear, slowly overtime. - need 1.20.2
+- retexture dripstone item, or kill the dripstone item after it's been shot. - need Jingy
 - make honey pots right clickable to obtain the honeycomb block after it's hardened
 - fix bee spawning when killing dripstone
 
