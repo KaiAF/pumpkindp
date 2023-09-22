@@ -4,12 +4,13 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "interaction"
+          "type": "interaction",
+          "nbt": "{Tags:['honey_deposit','player_1_0']}"
         }
       }
     }
   },
   "rewards": {
-    "function": "pumpkinmaker:utils/honey_pot/click"
+    "function": "pumpkinmaker:utils/honey_pot/click_1_0"
   }
 }

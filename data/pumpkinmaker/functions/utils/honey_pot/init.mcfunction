@@ -5,7 +5,7 @@ kill @e[type=interaction,tag=honey_deposit]
 execute as @a run scoreboard players add $players stats 1
 
 execute if score $players stats matches 1 run place template honey_pot 6 65 -37 none none 1 0
-execute if score $players stats matches 1 run summon interaction 7 66 -36 {Tags:["honey_deposit","player_1"]}
+execute if score $players stats matches 1 run summon interaction 7 66 -36 {Tags:["honey_deposit","player_1_0"]}
 
 execute if score $players stats matches 2 run place template honey_pot 3 65 -39 none none 1 0
 execute if score $players stats matches 2 run place template honey_pot 8 65 -34 none none 1 0
@@ -29,11 +29,7 @@ execute if score $players stats matches 4 run summon interaction 5 66 -36 {Tags:
 execute if score $players stats matches 4 run summon interaction 7 66 -34 {Tags:["honey_deposit","player_4"]}
 
 execute as @a[team=,limit=1] run team join player_1 @s
-execute as @a[team=] run say @s 1
 execute as @a[team=,limit=1] run team join player_2 @s
-execute as @a[team=] run say @s 2
 execute as @a[team=,limit=1] run team join player_3 @s
-execute as @a[team=] run say @s 3
 execute as @a[team=,limit=1] run team join player_4 @s
-execute as @a[team=] run say @s 4
 

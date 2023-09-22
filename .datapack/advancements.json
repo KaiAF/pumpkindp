@@ -1,1 +1,1 @@
-{"global":{"$adv":{"root":["trigger"],"pm":["trigger"]}},"pumpkinmaker":{"$adv":{"right_click":["requirement"],"left_click":["requirement"],"bee":["surfaceneutralbee"]}}}
+{"pumpkinmaker":{"$adv":{"rc_pot_1":["requirement"],"rc_pot_1_0":["requirement"],"left_click":["requirement"],"bee":["surfaceneutralbee"]}},"global":{"$adv":{"root":["trigger"],"pm":["trigger"]}}}
