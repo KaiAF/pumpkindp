@@ -1,4 +1,4 @@
-advancement revoke @s only pumpkinmaker:rch_pot_1_0
+advancement revoke @s only pumpkinmaker:honey_pot/hardened/rch_pot_1_0
 
 tag @s add this
 
