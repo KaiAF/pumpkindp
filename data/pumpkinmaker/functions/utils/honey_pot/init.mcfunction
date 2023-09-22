@@ -32,4 +32,3 @@ execute as @a[team=,limit=1] run team join player_1 @s
 execute as @a[team=,limit=1] run team join player_2 @s
 execute as @a[team=,limit=1] run team join player_3 @s
 execute as @a[team=,limit=1] run team join player_4 @s
-
