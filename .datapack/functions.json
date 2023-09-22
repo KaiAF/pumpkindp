@@ -1,1 +1,1 @@
-{"pumpkinmaker":{"utils":{"honey_pot":{"$func":["fill_3","init","fill_4","fill_3","fill_2","fill_1_0","fill_1","click_4","click_3","click_2","click_1_0","click_1"]},"$func":["left_click","carve"],"bee_nest":{"$func":["create_door","killed_bee","end","bee_attack","teleport","start","resummon_honey","reset"]}},"$func":["start_carving","start","reset","main","end_carving","debug"]}}
+{"pumpkinmaker":{"$func":["debug"]}}
