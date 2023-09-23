@@ -45,3 +45,4 @@ function pumpkinmaker:utils/bee_nest/create_door
 # Kill dripstone item
 # execute as @a[tag=is_getting_honey] run kill @e[type=item,nbt={Item: {id: "pointed_dripstone"}}]
 execute as @e[type=item,nbt={Item: {id: "minecraft:pointed_dripstone"}}] at @s run function pumpkinmaker:utils/bee_nest/resummon_honey
+kill @e[type=item,nbt={Item:{id:"minecraft:string",tag:{Tags:[]}}}]
