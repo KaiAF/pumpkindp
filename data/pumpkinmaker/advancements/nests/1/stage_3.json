@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"nest_1_3\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pumpkinmaker:utils/spider_nest/nests/attack/1/stage_3"
+  }
+}
