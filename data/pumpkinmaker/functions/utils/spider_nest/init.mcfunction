@@ -13,4 +13,5 @@ execute if score $1 spider_pos_ran matches 3 run scoreboard players set $nest_3 
 execute if score $1 spider_pos_ran matches 4 if score $nests_4 spawned_nests matches 0 run function pumpkinmaker:utils/spider_nest/nests/nest_4/create/stage_4
 execute if score $1 spider_pos_ran matches 4 run scoreboard players set $nest_4 spawned_nests 1
 
-execute if score $1 spider_pos_ran matches 5 run say Missing file
+execute if score $1 spider_pos_ran matches 5 if score $nests_5 spawned_nests matches 0 run function pumpkinmaker:utils/spider_nest/nests/nest_5/create/stage_4
+execute if score $1 spider_pos_ran matches 5 run scoreboard players set $nest_5 spawned_nests 1
