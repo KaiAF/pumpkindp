@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "pumpkinmaker:utils/spider_nest/nests/attack/1/stage_2"
+    "function": "pumpkinmaker:utils/spider_nest/nests/nests_1/attack/stage_2"
   }
 }

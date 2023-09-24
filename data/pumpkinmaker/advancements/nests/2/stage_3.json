@@ -5,12 +5,12 @@
       "conditions": {
         "entity": {
           "type": "interaction",
-          "nbt": "{Tags:[\"nest_1_3\"]}"
+          "nbt": "{Tags:[\"nest_2_3\"]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "pumpkinmaker:utils/spider_nest/nests/nest_1/attack/stage_3"
+    "function": "pumpkinmaker:utils/spider_nest/nests/nest_2/attack/stage_3"
   }
 }
