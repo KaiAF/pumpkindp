@@ -23,26 +23,12 @@ execute as @a run execute store result score @s xpos run data get entity @s Pos[
 execute as @a run execute store result score @s ypos run data get entity @s Pos[1]
 execute as @a run execute store result score @s zpos run data get entity @s Pos[2]
 
+# Bee nest entrance
 execute as @a[gamemode=!creative] if score @s xpos matches 13 if score @s zpos matches -41 run function pumpkinmaker:utils/bee_nest/teleport
 execute as @a[gamemode=!creative] if score @s xpos matches -237 if score @s zpos matches -38 run function pumpkinmaker:utils/bee_nest/end
 function pumpkinmaker:utils/bee_nest/create_door
+# Spider nest entrance
+execute as @a[gamemode=!creative] if score @s xpos matches 9 if score @s zpos matches -13 run tp @s 266.61 66.00 23.04 879.36 1.45
 
-
-
-# # Teleport player outside of bee nest if they run out of arrows
-# execute as @a[tag=is_getting_honey] run execute store result score $bee bee_arrows_left run clear @s arrow 0
-# execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run tag @s add is_awaiting_tp_0
-# execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run title @s actionbar {"text": "You may leave the hive now. The door is open.","underlined": true}
-# execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run playsound entity.arrow.hit_player master @s ~ ~ ~ 1 1 1
-# execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run setblock -230 53 -38 emerald_block destroy
-# execute as @a[tag=is_getting_honey] run execute if score $bee bee_arrows_left matches ..0 run tag @s remove is_getting_honey
-# # or if they destroyed all the honey
-# execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run tag @s add is_awaiting_tp_0
-# execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run title @s actionbar {"text": "You may leave the hive now. The door is open.","underlined": true}
-# execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run playsound entity.arrow.hit_player master @s ~ ~ ~ 1 1 1
-# execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run setblock -230 53 -38 emerald_block destroy
-# execute as @a[tag=is_getting_honey] run execute if score $bee destroyed_honey matches 5.. run tag @s remove is_getting_honey
-# Kill dripstone item
-# execute as @a[tag=is_getting_honey] run kill @e[type=item,nbt={Item: {id: "pointed_dripstone"}}]
 execute as @e[type=item,nbt={Item: {id: "minecraft:pointed_dripstone"}}] at @s run function pumpkinmaker:utils/bee_nest/resummon_honey
 execute as @e[type=item,nbt={Item:{id:"minecraft:string"}}] unless entity @s[type=item,nbt={Item:{tag:{display:{Name: '{"text":"Spider Silk"}'}}}}] run kill @s
