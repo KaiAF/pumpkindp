@@ -1,0 +1,2 @@
+summon interaction 236 67 25 {Tags:["nest_3_2"],width:2,height:2}
+summon block_display 236 67 25 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:sniffer_egg"}}
