@@ -1,7 +1,3 @@
-scoreboard players set $nest_1 spawned_nests 0
-scoreboard players set $nest_2 spawned_nests 0
-scoreboard players set $nest_3 spawned_nests 0
-
 execute store result score $1 spider_pos_ran run random value 1..5
 # execute store result score $2 spider_pos_ran run random value 1..5
 
