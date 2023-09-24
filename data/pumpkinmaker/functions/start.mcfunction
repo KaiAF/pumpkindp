@@ -11,5 +11,8 @@ scoreboard objectives modify teams displayname {"text": "Teams"}
 scoreboard objectives setdisplay sidebar teams
 
 scoreboard players set @a pot_level 0
+scoreboard objectives remove spawned_nests
+scoreboard objectives add spawned_nests dummy
+
 function pumpkinmaker:utils/honey_pot/init
 function pumpkinmaker:utils/spider_nest/init
