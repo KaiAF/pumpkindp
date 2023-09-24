@@ -28,7 +28,7 @@ execute as @a[gamemode=!creative] if score @s xpos matches 13 if score @s zpos m
 execute as @a[gamemode=!creative] if score @s xpos matches -237 if score @s zpos matches -38 run function pumpkinmaker:utils/bee_nest/end
 function pumpkinmaker:utils/bee_nest/create_door
 # Spider nest entrance
-execute as @a[gamemode=!creative] if score @s xpos matches 9 if score @s zpos matches -13 run tp @s 266.61 66.00 23.04 879.36 1.45
+execute as @a[gamemode=!creative] if score @s xpos matches 9 if score @s zpos matches -17 run tp @s 266.61 66.00 23.04 879.36 1.45
 
 execute as @e[type=item,nbt={Item: {id: "minecraft:pointed_dripstone"}}] at @s run function pumpkinmaker:utils/bee_nest/resummon_honey
 execute as @e[type=item,nbt={Item:{id:"minecraft:string"}}] unless entity @s[type=item,nbt={Item:{tag:{display:{Name: '{"text":"Spider Silk"}'}}}}] run kill @s
