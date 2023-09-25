@@ -15,7 +15,3 @@ execute if score $1 spider_pos_ran matches 4 run function pumpkinmaker:utils/spi
 
 # execute if score $1 spider_pos_ran matches 5 if score $nests_5 spawned_nests matches 0 run function pumpkinmaker:utils/spider_nest/nests/nest_5/create/stage_4
 execute if score $1 spider_pos_ran matches 5 run function pumpkinmaker:utils/spider_nest/nests/nest_5/create/stage_4
-
-playsound entity.spider.step hostile @s ~ ~ ~ 0.1
-playsound entity.spider.step hostile @s ~ ~ ~ 0.1
-playsound entity.spider.step hostile @s ~ ~ ~ 0.1
