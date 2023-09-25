@@ -1,3 +1,4 @@
+summon interaction 26 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 26 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 26 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 26 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -11,6 +12,7 @@ summon interaction 26 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 26 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 26 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 26 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 27 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 27 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 27 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 27 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -24,6 +26,7 @@ summon interaction 27 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 27 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 27 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 27 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 28 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 28 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 28 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 28 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -37,6 +40,7 @@ summon interaction 28 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 28 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 28 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 28 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 29 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 29 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 29 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 29 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -50,6 +54,7 @@ summon interaction 29 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 29 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 29 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 29 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 30 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 30 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 30 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 30 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -63,6 +68,7 @@ summon interaction 30 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 30 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 30 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 30 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 31 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 31 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 31 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 31 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -76,6 +82,7 @@ summon interaction 31 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 31 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 31 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 31 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 32 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 32 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 32 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 32 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -89,6 +96,7 @@ summon interaction 32 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 32 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 32 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 32 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 33 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 33 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 33 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 33 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -102,6 +110,7 @@ summon interaction 33 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 33 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 33 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 33 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 34 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 34 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 34 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 34 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -115,6 +124,7 @@ summon interaction 34 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 34 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 34 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 34 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 35 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 35 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 35 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 35 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -128,6 +138,7 @@ summon interaction 35 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 35 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 35 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 35 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 36 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 36 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 36 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 36 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
@@ -141,6 +152,7 @@ summon interaction 36 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 36 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 36 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 36 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 37 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 37 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 37 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 37 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
