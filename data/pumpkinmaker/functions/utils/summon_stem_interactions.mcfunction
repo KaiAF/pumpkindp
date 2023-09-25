@@ -166,3 +166,17 @@ summon interaction 37 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 37 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 37 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
 summon interaction 37 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -37 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -36 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -35 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -34 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -33 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -32 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -31 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -30 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -29 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -28 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -27 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -26 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -25 {width: 1, height: 0.5f, Tags: ["stem"]}
+summon interaction 38 64 -24 {width: 1, height: 0.5f, Tags: ["stem"]}
