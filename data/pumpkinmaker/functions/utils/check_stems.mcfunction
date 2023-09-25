@@ -1,0 +1,1 @@
+execute if block 7 -60 10 pumpkin_stem[age=7] run setblock 7 -60 10 pumpkin
