@@ -14,8 +14,11 @@ scoreboard players set @a pot_level 0
 scoreboard objectives remove spawned_nests
 scoreboard objectives add spawned_nests dummy
 
+clear @s diamond_hoe
+clear @s pumpkin_seeds
+
 execute as @a run give @s diamond_hoe{CanPlaceOn: ["minecraft:dirt_path"]} 1
-execute as @a run give @s pumpkin_seeds 5
+execute as @a run give @s pumpkin_seeds{CanPlaceOn: ["minecraft:farmland"]} 5
 
 function pumpkinmaker:utils/honey_pot/init
 function pumpkinmaker:utils/spider_nest/init
