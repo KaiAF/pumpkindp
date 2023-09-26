@@ -12,7 +12,7 @@ fill 5 65 -36 5 66 -36 air
 fill 7 65 -34 7 66 -34 air
 
 execute if score $players stats matches 1 run place template honey_pot 6 65 -37 none none 1 0
-execute if score $players stats matches 1 run summon interaction 7 66 -36 {Tags: ["honey_deposit", "player_0"]}
+execute if score $players stats matches 1 run summon interaction 7 66 -36 {Tags: ["honey_deposit", "player_1_0"]}
 
 execute if score $players stats matches 2 run place template honey_pot 3 65 -39 none none 1 0
 execute if score $players stats matches 2 run place template honey_pot 8 65 -34 none none 1 0
