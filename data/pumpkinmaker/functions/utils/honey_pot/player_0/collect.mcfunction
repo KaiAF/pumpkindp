@@ -7,5 +7,5 @@ execute as @s[team=player_1] run setblock 7 66 -36 decorated_pot destroy
 
 kill @e[type=item,nbt={Item: {id: "minecraft:decorated_pot"}}]
 
-kill @e[type=interaction,x=7,y=66,z=-36,distane=..1]
+kill @e[type=interaction,x=7,y=66,z=-36,distance=..1]
 summon interaction 7 66 -36 {Tags: ["honey_deposit", "player_1_0"]}
