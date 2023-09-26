@@ -5,7 +5,7 @@
 clone 0 1 0 0 1 0 8 -60 9 replace
 
 kill @e[type=interaction,tag=stem]
-function pumpkinmaker:utils/summon_stem_interactions
+# function pumpkinmaker:utils/summon_stem_interactions
 
 scoreboard objectives remove isCarving
 scoreboard objectives add isCarving dummy
@@ -72,8 +72,8 @@ summon minecraft:interaction 452 64.99 -6 {width: 1.2f, height: 1.2f, Tags: ["an
 
 # execute as @e[type=interaction] run summon block_display ~ ~ ~ {Glowing: 1b, Tags: ["toCarve"], transformation: {left_rotation: [0f, 0f, 0f, 1f], right_rotation: [0f, 0f, 0f, 1f], translation: [-0.5f, 0f, -0.5f], scale: [1f, 1f, 1f]}, block_state: {Name: "minecraft:pumpkin"}}
 
-execute as @e[type=interaction,tag=stem] at @s if block ~ ~ ~ farmland run setblock ~ ~ ~ dirt_path
-execute as @e[type=interaction,tag=stem] at @s if block ~ ~ ~ mycelium run setblock ~ ~ ~ dirt_path
+# execute as @e[type=interaction,tag=stem] at @s if block ~ ~ ~ farmland run setblock ~ ~ ~ dirt_path
+# execute as @e[type=interaction,tag=stem] at @s if block ~ ~ ~ mycelium run setblock ~ ~ ~ dirt_path
 
 title @a actionbar {"text": "Reset successful", "color": "green"}
 
