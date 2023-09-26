@@ -13,6 +13,6 @@ execute if score $countSpiders spider_pos_ran matches 4 run summon spider 467 65
 execute if score $countSpiders spider_pos_ran matches 4 run summon spider 466 65 49 {Tags:["nest_4"]}
 execute if score $countSpiders spider_pos_ran matches 4 run summon spider 460 65 49 {Tags:["nest_4"]}
 
-execute if score $countSpiders spider_pos_ran matches 3 run summon spider 456 65 48 {Tags:["nest_4"]}
+execute if score $countSpiders spider_pos_ran matches 3 run summon spider 460 65 48 {Tags:["nest_4"]}
 execute if score $countSpiders spider_pos_ran matches 3 run summon spider 460 65 49 {Tags:["nest_4"]}
 execute if score $countSpiders spider_pos_ran matches 3 run summon spider 467 65 45 {Tags:["nest_4"]}
