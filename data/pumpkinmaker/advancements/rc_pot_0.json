@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "interaction",
-          "nbt": "{Tags:[\"honey_deposit\",\"player_1_0\"]}"
+          "nbt": "{Tags:[\"honey_deposit\",\"player_0\"]}"
         }
       }
     }
