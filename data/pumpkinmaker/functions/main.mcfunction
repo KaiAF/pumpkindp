@@ -24,3 +24,9 @@ execute as @a[gamemode=!creative] if score @s xpos matches 9 if score @s zpos ma
 
 execute as @e[type=item,nbt={Item: {id: "minecraft:pointed_dripstone"}}] at @s run function pumpkinmaker:utils/bee_nest/resummon_honey
 execute as @e[type=item,nbt={Item: {id: "minecraft:string"}}] unless entity @s[type=item,nbt={Item: {tag: {display: {Name: '{"text":"Spider Silk"}'}}}}] run kill @s
+# Spider nest exit
+execute as @a[gamemode=!creative] if score @s opened_door matches 1 if score @s xpos matches 455 if score @s zpos matches 0 run tp @s 14.24 66.00 -22.52 -129.30 5.79
+execute as @a[gamemode=!creative] if score @s opened_door matches 2 if score @s xpos matches 483 if score @s zpos matches 2 run tp @s 14.24 66.00 -22.52 -129.30 5.79
+execute as @a[gamemode=!creative] if score @s opened_door matches 3 if score @s xpos matches 436 if score @s zpos matches 25 run tp @s 14.24 66.00 -22.52 -129.30 5.79
+execute as @a[gamemode=!creative] if score @s opened_door matches 4 if score @s xpos matches 465 if score @s zpos matches 47 run tp @s 14.24 66.00 -22.52 -129.30 5.79
+execute as @a[gamemode=!creative] if score @s opened_door matches 5 if score @s xpos matches 492 if score @s zpos matches 24 run tp @s 14.24 66.00 -22.52 -129.30 5.79

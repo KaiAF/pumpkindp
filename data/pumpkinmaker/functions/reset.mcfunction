@@ -61,6 +61,9 @@ scoreboard objectives add spider_pos_ran dummy
 scoreboard objectives remove spawned_nests
 scoreboard objectives add spawned_nests dummy
 
+scoreboard objectives remove opened_door
+scoreboard objectives add opened_door dummy
+
 fill -13 -61 16 -21 -52 20 air
 fill -21 -61 20 -12 -61 16 grass_block
 
