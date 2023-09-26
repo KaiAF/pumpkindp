@@ -1,11 +1,9 @@
 advancement revoke @s only pumpkinmaker:honey_pot/hardened/rch_pot_3
 
-say if668r3eg
-
 tag @s add this
 
 execute as @s[team=player_1] run give @s honeycomb_block
-execute as @s[team=player_1] run setblock 5 66 -36 decorated_pot destroy
+execute as @s[team=player_1] run setblock 5 66 -36 decorated_pot{sherds: ["minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air"]} destroy
 
 kill @e[type=item,nbt={Item: {id: "minecraft:decorated_pot"}}]
 
