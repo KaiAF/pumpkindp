@@ -6,9 +6,9 @@ playsound minecraft:block.wool.break ambient @p ~ ~ ~ 2 1
 playsound minecraft:block.snow.break ambient @p ~ ~ ~ 2 0.5
 playsound minecraft:block.azalea.step ambient @p ~ ~ ~ 2 0.5
 
-kill @e[type=block_display,x=255,y=65,z=0,limit=1,distance=..4]
-kill @e[type=interaction,x=255,y=65,z=0,limit=1,distance=..4]
+kill @e[type=block_display,x=455,y=65,z=0,limit=1,distance=..4]
+kill @e[type=interaction,x=455,y=65,z=0,limit=1,distance=..4]
 
-summon item 255 65 0 {Item:{id:"minecraft:string",Count:4b,tag:{display:{Name:'{"text":"Spider Silk"}'}}}}
+summon item 455 65 0 {Item:{id:"minecraft:string",Count:4b,tag:{display:{Name:'{"text":"Spider Silk"}'}}}}
 function pumpkinmaker:utils/spider_nest/nests/nest_1/create/stage_3
 function pumpkinmaker:utils/spider_nest/nests/nest_1/enemies/stage_3
