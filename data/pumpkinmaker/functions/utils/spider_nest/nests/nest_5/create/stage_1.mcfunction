@@ -6,5 +6,3 @@ playsound entity.zombie.break_wooden_door ambient @a[x=255,y=65,z=0,distance=..2
 scoreboard players set @s opened_door 5
 playsound entity.arrow.hit_player master @s ~ ~ ~
 tellraw @s {"text": "A passageway has been opened from the nest", "color": "green"}
-
-execute as @s at @s run function pumpkinmaker:utils/spider_nest/create_door
