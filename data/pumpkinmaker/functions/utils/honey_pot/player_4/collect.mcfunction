@@ -1,5 +1,7 @@
 advancement revoke @s only pumpkinmaker:honey_pot/hardened/rch_pot_4
 
+say 85j8b58bi
+
 tag @s add this
 
 execute as @s[team=player_1] run give @s honeycomb_block
