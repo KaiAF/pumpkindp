@@ -1,7 +1,5 @@
 function pumpkinmaker:utils/check_stems
 
-execute if loaded 452 65 -7 unless entity @e[type=interaction,x=452,z=-7,distance=..5] run summon minecraft:interaction 452 64.99 -6 {width: 1.2f, height: 1.2f}
-
 execute if block -15 -60 13 pumpkin run execute if score @a[tag=carver,limit=1] isCarving matches 0 run function pumpkinmaker:start_carving
 execute if block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] isCarving 1
 execute unless block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] isCarving 0
