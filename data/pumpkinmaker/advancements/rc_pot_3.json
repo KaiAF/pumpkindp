@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "pumpkinmaker:utils/honey_pot/click_3"
+    "function": "pumpkinmaker:utils/honey_pot/player_3/click"
   }
 }
