@@ -8,7 +8,7 @@ execute if block 9 -60 10 pumpkin_stem[age=7] run setblock 9 -60 10 pumpkin
 execute if block 9 -60 11 pumpkin_stem[age=7] run setblock 9 -60 11 pumpkin
 execute if block 9 -60 12 pumpkin_stem[age=7] run setblock 9 -60 12 pumpkin
 
-execute if block -15 -60 13 pumpkin run execute if score @a[tag=carver,limit=1] isCarving matches 0 run function pumpkinmaker:start_carving
+execute if block -15 -60 13 pumpkin run execute if score @a[tag=carver,limit=1] isCarving matches 0 run function pumpkinmaker:utils/carving/start_carving
 execute if block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] isCarving 1
 execute unless block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] isCarving 0
 
