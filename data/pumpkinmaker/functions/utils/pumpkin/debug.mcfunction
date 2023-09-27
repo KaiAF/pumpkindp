@@ -1,5 +1,7 @@
 advancement revoke @s only pumpkinmaker:crossbow
+execute store result score $randomValue stats run random value 1..10
 
+execute if score $randomValue stats matches 10 run summon item ~ ~ ~ {Item: {id: "pumpkin_seeds", Count: 1b}}
 
 execute if block ~ ~ ~ dirt_path run fill ~-1 67 ~-1 ~1 67 ~1 farmland replace dirt_path
 execute if block ~ ~ ~ farmland run fill ~-1 67 ~-1 ~1 67 ~1 farmland replace farmland
