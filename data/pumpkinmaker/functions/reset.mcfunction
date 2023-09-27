@@ -75,6 +75,7 @@ summon minecraft:interaction 452 64.99 -6 {width: 1.2f, height: 1.2f, Tags: ["an
 # execute as @e[type=interaction,tag=stem] at @s if block ~ ~ ~ farmland run setblock ~ ~ ~ dirt_path
 # execute as @e[type=interaction,tag=stem] at @s if block ~ ~ ~ mycelium run setblock ~ ~ ~ dirt_path
 
+say test
 title @a actionbar {"text": "Reset successful", "color": "green"}
 
 # debug
