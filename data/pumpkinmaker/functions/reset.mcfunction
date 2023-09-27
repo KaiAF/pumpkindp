@@ -68,6 +68,9 @@ fill -13 -61 16 -21 -52 20 air
 fill -21 -61 20 -12 -61 16 grass_block
 
 kill @e[type=interaction,tag=anchor_entity]
+execute as @e[type=interaction,tag=nest] run kill @s
+execute as @e[type=block_display,tag=nest] run kill @s
+
 # summon minecraft:interaction 452 64.99 -6 {width: 1.2f, height: 1.2f, Tags: ["anchor_entity"]}
 
 # execute as @e[type=interaction] run summon block_display ~ ~ ~ {Glowing: 1b, Tags: ["toCarve"], transformation: {left_rotation: [0f, 0f, 0f, 1f], right_rotation: [0f, 0f, 0f, 1f], translation: [-0.5f, 0f, -0.5f], scale: [1f, 1f, 1f]}, block_state: {Name: "minecraft:pumpkin"}}
