@@ -5,7 +5,7 @@
 clone 0 1 0 0 1 0 8 -60 9 replace
 
 kill @e[type=interaction,tag=stem]
-# function pumpkinmaker:utils/summon_stem_interactions
+# function pumpkinmaker:utils/farm/summon_stem_interactions
 
 scoreboard objectives remove isCarving
 scoreboard objectives add isCarving dummy

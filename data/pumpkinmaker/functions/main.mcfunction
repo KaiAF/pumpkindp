@@ -1,6 +1,6 @@
 function pumpkinmaker:utils/pumpkin/check
 
-execute if block -15 -60 13 pumpkin run execute if score @a[tag=carver,limit=1] isCarving matches 0 run function pumpkinmaker:start_carving
+execute if block -15 -60 13 pumpkin run execute if score @a[tag=carver,limit=1] isCarving matches 0 run function pumpkinmaker:utils/carving/start_carving
 execute if block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] isCarving 1
 execute unless block -15 -60 13 pumpkin run scoreboard players set @a[tag=carver] isCarving 0
 
