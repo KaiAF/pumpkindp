@@ -1,4 +1,4 @@
-tp @s 466.61 66.00 23.04
+tp @s 466.61 66.00 23
 
 playsound entity.spider.step hostile @s ~ ~ ~ 0.3
 playsound entity.spider.step hostile @s ~ ~ ~ 0.3

@@ -26,7 +26,7 @@ execute as @e[type=item,nbt={Item: {id: "minecraft:pointed_dripstone"}}] at @s r
 execute as @e[type=item,nbt={Item: {id: "minecraft:string"}}] unless entity @s[type=item,nbt={Item: {tag: {display: {Name: '{"text":"Spider Silk"}'}}}}] run kill @s
 
 # Farm Entrance
-execute as @a[gamemode=!creative] if score @s xpos matches 42 if score @s zpos matches -42 run function pumpkinmaker:utils/farm/teleport
+execute as @a[gamemode=!creative] if score @s xpos matches 42 if score @s zpos matches -43 run function pumpkinmaker:utils/farm/teleport
 
 # Spider nest exit
 execute as @a[gamemode=!creative] if score @s opened_door matches 1 if score @s xpos matches 455 if score @s zpos matches 0 run tp @s 14.24 66.00 -22.52 -129.30 5.79
