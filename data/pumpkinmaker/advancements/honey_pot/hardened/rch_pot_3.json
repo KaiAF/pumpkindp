@@ -4,10 +4,13 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "interaction"
+          "type": "interaction",
+          "nbt": "{Tags:['honey_collect','player_3']}"
         }
       }
     }
   },
-  "rewards": {}
+  "rewards": {
+    "function": "pumpkinmaker:utils/honey_pot/player_3/collect"
+  }
 }
