@@ -6,6 +6,6 @@
     }
   },
   "rewards": {
-    "function": "pumpkinmaker:debug"
+    "function": "pumpkinmaker:utils/pumpkin/debug"
   }
 }
