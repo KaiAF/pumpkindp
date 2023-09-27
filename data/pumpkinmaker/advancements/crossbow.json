@@ -6,6 +6,6 @@
     }
   },
   "rewards": {
-    "function": "pumpkinmaker:utils/pumpkin/debug"
+    "function": "pumpkinmaker:utils/pumpkin/scythe"
   }
 }
