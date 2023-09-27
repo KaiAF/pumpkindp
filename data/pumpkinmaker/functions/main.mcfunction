@@ -34,16 +34,11 @@ execute as @a[gamemode=!creative] if score @s xpos matches 33 if score @s zpos m
 # Spider nest exit
 execute as @a[gamemode=!creative] if score @s opened_door matches 1 if score @s xpos matches 455 if score @s zpos matches 0 run tp @s 14.24 66.00 -22.52 -129.30 5.79
 execute as @a[gamemode=!creative] if score @s opened_door matches 1 run function pumpkinmaker:utils/spider_nest/nests/nest_1/create_door
-execute as @s if score @s opened_door matches 1 run function pumpkinmaker:utils/spider_nest/end
 execute as @a[gamemode=!creative] if score @s opened_door matches 2 if score @s xpos matches 483 if score @s zpos matches 2 run tp @s 14.24 66.00 -22.52 -129.30 5.79
 execute as @a[gamemode=!creative] if score @s opened_door matches 2 run function pumpkinmaker:utils/spider_nest/nests/nest_2/create_door
-execute as @s if score @s opened_door matches 2 run function pumpkinmaker:utils/spider_nest/end
 execute as @a[gamemode=!creative] if score @s opened_door matches 3 if score @s xpos matches 436 if score @s zpos matches 25 run tp @s 14.24 66.00 -22.52 -129.30 5.79
 execute as @a[gamemode=!creative] if score @s opened_door matches 3 run function pumpkinmaker:utils/spider_nest/nests/nest_3/create_door
-execute as @s if score @s opened_door matches 3 run function pumpkinmaker:utils/spider_nest/end
 execute as @a[gamemode=!creative] if score @s opened_door matches 4 if score @s xpos matches 465 if score @s zpos matches 47 run tp @s 14.24 66.00 -22.52 -129.30 5.79
 execute as @a[gamemode=!creative] if score @s opened_door matches 4 run function pumpkinmaker:utils/spider_nest/nests/nest_4/create_door
-execute as @s if score @s opened_door matches 4 run function pumpkinmaker:utils/spider_nest/end
 execute as @a[gamemode=!creative] if score @s opened_door matches 5 if score @s xpos matches 492 if score @s zpos matches 24 run tp @s 14.24 66.00 -22.52 -129.30 5.79
 execute as @a[gamemode=!creative] if score @s opened_door matches 5 run function pumpkinmaker:utils/spider_nest/nests/nest_5/create_door
-execute as @s if score @s opened_door matches 5 run function pumpkinmaker:utils/spider_nest/end
