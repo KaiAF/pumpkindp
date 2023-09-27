@@ -25,6 +25,9 @@ execute as @a[gamemode=!creative] if score @s xpos matches 9 if score @s zpos ma
 execute as @e[type=item,nbt={Item: {id: "minecraft:pointed_dripstone"}}] at @s run function pumpkinmaker:utils/bee_nest/resummon_honey
 execute as @e[type=item,nbt={Item: {id: "minecraft:string"}}] unless entity @s[type=item,nbt={Item: {tag: {display: {Name: '{"text":"Spider Silk"}'}}}}] run kill @s
 
+# Mine Entrance
+execute as @a[gamemode=!creative] if score @s xpos matches 33 if score @s zpos matches -31 run function pumpkinmaker:utils/mine/teleport
+
 # Farm Entrance
 execute as @a[gamemode=!creative] if score @s xpos matches 42 if score @s zpos matches -43 run function pumpkinmaker:utils/farm/teleport
 
