@@ -1,2 +1,2 @@
-particle happy_villager 4 66 -38 1 1 1 1 5
-playsound minecraft:block.beehive.drip master @a[team=player_1] 4 66 -38 1 1
+particle happy_villager 9 66 -33 1 1 1 1 5
+playsound minecraft:block.beehive.drip master @a[team=player_1] 9 66 -33 1 1
