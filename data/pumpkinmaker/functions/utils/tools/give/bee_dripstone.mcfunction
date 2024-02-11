@@ -1,1 +1,1 @@
-give @s arrow{CustomTags:["HoneyCombSpawn"]}
+give @s arrow{display:{Name:'{"text":"Bee Dripstone","italic":false}', Lore:['{"text":"put in offhand and shoot bow"}']},CustomTags:["HoneyCombSpawn"]}
