@@ -1,1 +1,1 @@
-give @s snowball{CustomTags:["HoneyCombSpawn"]}
+give @s arrow{CustomTags:["HoneyCombSpawn"]}

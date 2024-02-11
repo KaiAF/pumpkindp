@@ -1,1 +1,1 @@
-execute as @e[type=snowball,nbt={Item:{tag:{CustomTags:["HoneyCombSpawn"]}}}] at @s positioned ^ ^.2 ^ unless block ~ ~ ~ air run function pumpkinmaker:utils/tools/func/create_dripstone
+execute as @e[type=arrow,nbt={tag:{CustomTags:["HoneyCombSpawn"]}}] at @s positioned ^ ^ ^.2 unless block ~ ~ ~ air run function pumpkinmaker:utils/tools/func/create_dripstone
