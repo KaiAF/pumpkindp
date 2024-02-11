@@ -79,6 +79,6 @@ execute as @e[type=block_display,tag=nest] run kill @s
 # execute as @e[type=interaction,tag=stem] at @s if block ~ ~ ~ mycelium run setblock ~ ~ ~ dirt_path
 
 title @a actionbar {"text": "Reset successful", "color": "green"}
-
+say test
 # debug
 function pumpkinmaker:start
