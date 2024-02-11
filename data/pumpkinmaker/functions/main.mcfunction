@@ -15,6 +15,10 @@ execute as @a run execute store result score @s xpos run data get entity @s Pos[
 execute as @a run execute store result score @s ypos run data get entity @s Pos[1]
 execute as @a run execute store result score @s zpos run data get entity @s Pos[2]
 
+# Repeating Commands
+function pumpkinmaker:utils/tools/interaction_anylizer
+function pumpkinmaker:utils/tools/snowball_anylizer
+
 # Bee nest entrance
 execute as @a[gamemode=!creative] if score @s xpos matches 13 if score @s zpos matches -41 run function pumpkinmaker:utils/bee_nest/teleport
 execute as @a[gamemode=!creative] if score @s xpos matches -237 if score @s zpos matches -38 run function pumpkinmaker:utils/bee_nest/end
