@@ -39,9 +39,9 @@ fill -217 62 -33 -217 62 -33 minecraft:pointed_dripstone[vertical_direction=down
 fill -217 61 -33 -217 61 -33 minecraft:pointed_dripstone[vertical_direction=down,thickness=frustum]
 fill -217 60 -33 -217 60 -33 minecraft:pointed_dripstone[vertical_direction=down,thickness=tip]
 # Summon bees
-execute at @s run summon bee ~ ~ ~ {AngerTime: 999999999}
-execute at @s run summon bee ~ ~ ~ {AngerTime: 999999999}
-execute at @s run summon bee ~ ~ ~ {AngerTime: 999999999}
+execute at @s run summon bee ~-.3 ~ ~1.4 {AngerTime: 999999999}
+execute at @s run summon bee ~-.2 ~-1 ~3.5 {AngerTime: 999999999}
+execute at @s run summon bee ~-2 ~ ~2.5 {AngerTime: 999999999}
 # Attack the bees
 schedule function pumpkinmaker:utils/bee_nest/bee_attack 5t
 # Add the proper tag to store who is getting the honey

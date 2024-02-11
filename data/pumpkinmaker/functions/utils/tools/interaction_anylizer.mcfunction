@@ -1,0 +1,2 @@
+execute as @e[type=interaction,tag=pumpkindb.base,nbt={interaction:{}}] on attacker if entity @s[tag=!dev.mode] run return fail
+execute as @e[type=interaction,tag=pumpkindb.bee.dripstone,nbt={interaction:{}}] at @s run function pumpkinmaker:utils/tools/func/remove_dripstone
