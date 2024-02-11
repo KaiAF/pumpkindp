@@ -1,0 +1,181 @@
+*{
+  cfg.SPAWN_1 = 0;
+  cfg.SPAWN_2 = 0;
+  cfg.SPAWN_3 = 0;
+  cfg.SPAWN_4 = 0;
+  cfg.SPAWN_5 = 0;
+  cfg.SPAWN_6 = 0;
+  cfg.SPAWN_7 = 0;
+  cfg.SPAWN_8 = 0;
+  cfg.SPAWN_9 = 0;
+  cfg.SPAWN_10 = 0;
+  cfg.SPAWN_11 = 0;
+  cfg.SPAWN_12 = 0;
+  cfg.SPAWN_Z_1 =  0;
+  cfg.SPAWN_Z_2 =  0;
+  cfg.SPAWN_Z_3 =  0;
+  cfg.SPAWN_Z_4 =  0;
+  cfg.SPAWN_Z_5 =  0;
+  cfg.SPAWN_Z_6 =  0;
+  cfg.SPAWN_Z_7 =  0;
+  cfg.SPAWN_Z_8 =  0;
+  cfg.SPAWN_Z_9 =  0;
+  cfg.SPAWN_Z_10 = 0;
+  cfg.SPAWN_Z_11 = 0;
+  cfg.SPAWN_Z_12 = 0;
+
+  switch (cfg.index) \[
+    case 1:
+      cfg.SPAWN_1 =  459;
+      cfg.SPAWN_2 =  459;
+      cfg.SPAWN_3 =  458;
+      cfg.SPAWN_4 =  452;
+      cfg.SPAWN_5 =  451;
+      cfg.SPAWN_6 =  459;
+      cfg.SPAWN_7 =  459;
+      cfg.SPAWN_8 =  458;
+      cfg.SPAWN_9 =  451;
+      cfg.SPAWN_10 = 459;
+      cfg.SPAWN_11 = 458;
+      cfg.SPAWN_12 = 451;
+      cfg.SPAWN_Z_1 =  0;
+      cfg.SPAWN_Z_2 =  2;
+      cfg.SPAWN_Z_3 =  3;
+      cfg.SPAWN_Z_4 =  2;
+      cfg.SPAWN_Z_5 =  1;
+      cfg.SPAWN_Z_6 =  0;
+      cfg.SPAWN_Z_7 =  2;
+      cfg.SPAWN_Z_8 =  3;
+      cfg.SPAWN_Z_9 =  1;
+      cfg.SPAWN_Z_10 = 0;
+      cfg.SPAWN_Z_11 = 3;
+      cfg.SPAWN_Z_12 = 1;
+      break;
+    case 2:
+      cfg.SPAWN_1 =  480;
+      cfg.SPAWN_2 =  484;
+      cfg.SPAWN_3 =  485;
+      cfg.SPAWN_4 =  486;
+      cfg.SPAWN_5 =  489;
+      cfg.SPAWN_6 =  480;
+      cfg.SPAWN_7 =  484;
+      cfg.SPAWN_8 =  486;
+      cfg.SPAWN_9 =  489;
+      cfg.SPAWN_10 = 480;
+      cfg.SPAWN_11 = 486;
+      cfg.SPAWN_12 = 489;
+      cfg.SPAWN_Z_1 =  -2;
+      cfg.SPAWN_Z_2 =  0 ;
+      cfg.SPAWN_Z_3 =  3 ;
+      cfg.SPAWN_Z_4 =  5 ;
+      cfg.SPAWN_Z_5 =  2 ;
+      cfg.SPAWN_Z_6 =  -2;
+      cfg.SPAWN_Z_7 =  0 ;
+      cfg.SPAWN_Z_8 =  5 ;
+      cfg.SPAWN_Z_9 =  2 ;
+      cfg.SPAWN_Z_10 = -2;
+      cfg.SPAWN_Z_11 = 5 ;
+      cfg.SPAWN_Z_12 = 2 ;
+      break;
+    case 3:
+      cfg.SPAWN_1 =  437;
+      cfg.SPAWN_2 =  439;
+      cfg.SPAWN_3 =  438;
+      cfg.SPAWN_4 =  435;
+      cfg.SPAWN_5 =  433;
+      cfg.SPAWN_6 =  435;
+      cfg.SPAWN_7 =  439;
+      cfg.SPAWN_8 =  433;
+      cfg.SPAWN_9 =  438;
+      cfg.SPAWN_10 = 435;
+      cfg.SPAWN_11 = 438;
+      cfg.SPAWN_12 = 433;
+      cfg.SPAWN_Z_1 =  28;
+      cfg.SPAWN_Z_2 =  25;
+      cfg.SPAWN_Z_3 =  22;
+      cfg.SPAWN_Z_4 =  19;
+      cfg.SPAWN_Z_5 =  23;
+      cfg.SPAWN_Z_6 =  19;
+      cfg.SPAWN_Z_7 =  25;
+      cfg.SPAWN_Z_8 =  27;
+      cfg.SPAWN_Z_9 =  30;
+      cfg.SPAWN_Z_10 = 19;
+      cfg.SPAWN_Z_11 = 22;
+      cfg.SPAWN_Z_12 = 23;
+      break;
+    case 4:
+      cfg.SPAWN_1 =  465;
+      cfg.SPAWN_2 =  467;
+      cfg.SPAWN_3 =  466;
+      cfg.SPAWN_4 =  461;
+      cfg.SPAWN_5 =  460;
+
+      cfg.SPAWN_6 =  465;
+      cfg.SPAWN_7 =  467;
+      cfg.SPAWN_8 =  466;
+      cfg.SPAWN_9 =  460;
+
+      cfg.SPAWN_10 = 460;
+      cfg.SPAWN_11 = 460;
+      cfg.SPAWN_12 = 467;
+
+      cfg.SPAWN_Z_1 =  45;
+      cfg.SPAWN_Z_2 =  47;
+      cfg.SPAWN_Z_3 =  49;
+      cfg.SPAWN_Z_4 =  48;
+      cfg.SPAWN_Z_5 =  43;
+
+      cfg.SPAWN_Z_6 =  45;
+      cfg.SPAWN_Z_7 =  47;
+      cfg.SPAWN_Z_8 =  49;
+      cfg.SPAWN_Z_9 =  49;
+
+      cfg.SPAWN_Z_10 = 48;
+      cfg.SPAWN_Z_11 = 49;
+      cfg.SPAWN_Z_12 = 45;
+      break;
+    case 5:
+      cfg.SPAWN_1 =  490;
+      cfg.SPAWN_2 =  494;
+      cfg.SPAWN_3 =  496;
+      cfg.SPAWN_4 =  495;
+      cfg.SPAWN_5 =  493;
+      cfg.SPAWN_6 =  493;
+      cfg.SPAWN_7 =  496;
+      cfg.SPAWN_8 =  494;
+      cfg.SPAWN_9 =  490;
+      cfg.SPAWN_10 = 490;
+      cfg.SPAWN_11 = 494;
+      cfg.SPAWN_12 = 493;
+      cfg.SPAWN_Z_1 =  27;
+      cfg.SPAWN_Z_2 =  28;
+      cfg.SPAWN_Z_3 =  25;
+      cfg.SPAWN_Z_4 =  21;
+      cfg.SPAWN_Z_5 =  20;
+      cfg.SPAWN_Z_6 =  20;
+      cfg.SPAWN_Z_7 =  25;
+      cfg.SPAWN_Z_8 =  28;
+      cfg.SPAWN_Z_9 =  27;
+      cfg.SPAWN_Z_10 = 27;
+      cfg.SPAWN_Z_11 = 28;
+      cfg.SPAWN_Z_12 = 20;
+      break;
+  \]
+}
+scoreboard players set $countSpiders spider_pos_ran 0
+execute store result score $countSpiders spider_pos_ran run random value 3..5
+
+execute if score $countSpiders spider_pos_ran matches 5 run summon spider ${cfg.SPAWN_1} 65 ${cfg.SPAWN_Z_1} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 5 run summon spider ${cfg.SPAWN_2} 65 ${cfg.SPAWN_Z_2} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 5 run summon spider ${cfg.SPAWN_3} 65 ${cfg.SPAWN_Z_3} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 5 run summon spider ${cfg.SPAWN_4} 65 ${cfg.SPAWN_Z_4} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 5 run summon spider ${cfg.SPAWN_5} 65 ${cfg.SPAWN_Z_5} {Tags:["nest_{INDEX}"]}
+
+execute if score $countSpiders spider_pos_ran matches 4 run summon spider ${cfg.SPAWN_6} 65 ${cfg.SPAWN_Z_6} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 4 run summon spider ${cfg.SPAWN_7} 65 ${cfg.SPAWN_Z_7} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 4 run summon spider ${cfg.SPAWN_8} 65 ${cfg.SPAWN_Z_8} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 4 run summon spider ${cfg.SPAWN_9} 65 ${cfg.SPAWN_Z_9} {Tags:["nest_{INDEX}"]}
+
+execute if score $countSpiders spider_pos_ran matches 3 run summon spider ${cfg.SPAWN_10} 65 ${cfg.SPAWN_Z_10} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 3 run summon spider ${cfg.SPAWN_11} 65 ${cfg.SPAWN_Z_11} {Tags:["nest_{INDEX}"]}
+execute if score $countSpiders spider_pos_ran matches 3 run summon spider ${cfg.SPAWN_12} 65 ${cfg.SPAWN_Z_12} {Tags:["nest_{INDEX}"]}

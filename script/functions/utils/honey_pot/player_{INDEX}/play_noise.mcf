@@ -1,0 +1,2 @@
+particle happy_villager ${cfg.X} ${cfg.Y} ${cfg.Z} 1 1 1 1 5
+playsound minecraft:block.beehive.drip master @a[team=player_${cfg.index == 0 ? cfg.index + 1 : cfg.index}] ${cfg.X} ${cfg.Y} ${cfg.Z} 1 1

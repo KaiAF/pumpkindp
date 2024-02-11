@@ -1,0 +1,7 @@
+advancement revoke @s only pumpkinmaker:rc_pot_{INDEX}
+
+tag @s add this
+
+execute if entity @s[nbt={SelectedItem: {id: "minecraft:pointed_dripstone"}},team=player_${cfg.index == 0 ? cfg.index + 1 : cfg.index}] run function pumpkinmaker:utils/honey_pot/player_{INDEX}/fill
+
+tag @s remove this
