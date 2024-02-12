@@ -1,0 +1,3 @@
+execute as @s store result storage pumpkindb:static.values HoneyPotTeam.applyNum int 1 run scoreboard players get @s tempValues
+execute as @s at @s if entity @e[type=interaction,distance=..0.5,tag=pumpkindb.honeypot.text] run kill @e[type=interaction,distance=..0.5,tag=pumpkindb.honeypot.text]
+execute as @s at @s run function pumpkinmaker:utils/tools/func/create_honey_pot0 with storage pumpkindb:static.values HoneyPotTeam

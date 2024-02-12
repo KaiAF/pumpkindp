@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=pumpkindb.honeypot.manager] run function pumpkinmaker:utils/tools/func/disable_names1
