@@ -1,1 +1,1 @@
-execute if entity @s[tag=dev.mode,scores={honeyPot=0..}] as @e[tag=pumpkindb.honeypot.manager] run data modify entity @s CustomNameVisible set value 0b
+execute as @e[tag=pumpkindb.honeypot.manager] run data modify entity @s CustomNameVisible set value 0b
