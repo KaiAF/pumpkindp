@@ -1,4 +1,4 @@
-data modify storage pumpkindb:game.values IsHiveActive set value 1b
+data modify storage pumpkindb:game.values Toggles.IsHiveActive set value 1b
 
 setblock -230 53 -38 barrier replace
 # Murder
