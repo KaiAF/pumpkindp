@@ -10,5 +10,7 @@ kill @e[type=block_display,x=492,y=64,z=24,limit=1,distance=..2]
 kill @e[type=interaction,x=492,y=64,z=24,limit=1,distance=..2]
 
 summon item 492 64 24 {Item:{id:"minecraft:string",Count:2b,tag:{display:{Name:'{"text":"Spider Silk"}'}}}}
+data modify storage pumpkindb:game.values Toggles.IsSpiderDenActive set value 0b
+
 function pumpkinmaker:utils/spider_nest/nests/nest_5/create/stage_1
 function pumpkinmaker:utils/spider_nest/nests/nest_5/enemies/stage_1
