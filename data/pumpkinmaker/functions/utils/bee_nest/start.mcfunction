@@ -1,3 +1,5 @@
+data modify storage pumpkindb:game.values IsHiveActive set value 1b
+
 setblock -230 53 -38 barrier replace
 # Murder
 execute at @s run kill @e[type=bee,distance=..50]
@@ -7,9 +9,7 @@ execute at @s run kill @e[type=item,distance=..50]
 give @s bow
 give @s arrow 3
 
-execute at @e[type=interaction,tag=pumpkindb.bee.dripstone] align xyz positioned ~.5 ~ ~.5 run setblock ~ ~ ~ minecraft:pointed_dripstone[vertical_direction=down,thickness=base]
-execute at @e[type=interaction,tag=pumpkindb.bee.dripstone] align xyz positioned ~.5 ~ ~.5 run setblock ~ ~-1 ~ minecraft:pointed_dripstone[vertical_direction=down,thickness=frustum]
-execute at @e[type=interaction,tag=pumpkindb.bee.dripstone] align xyz positioned ~.5 ~ ~.5 run setblock ~ ~-2 ~ minecraft:pointed_dripstone[vertical_direction=down,thickness=tip]
+function pumpkinmaker:utils/bee_nest/create_dripstone
 
 # Summon bees
 execute at @s run summon bee ~-.3 ~3 ~1.4 {AngerTime: 999999999}
