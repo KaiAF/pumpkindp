@@ -6,4 +6,4 @@ execute at @s run clear @s arrow
 execute run tp @s 16.46 65.00 -38.82 -61.48 0.38
 execute run tag @s remove is_getting_honey
 execute run tag @s remove is_awaiting_tp_0
-data modify storage pumpkindb:game.values Toggles.IsHiveActive set value 0b
+execute at @e[tag=beenest] unless entity @a[distance=..40] run data modify storage pumpkindb:game.values Toggles.IsHiveActive set value 0b
