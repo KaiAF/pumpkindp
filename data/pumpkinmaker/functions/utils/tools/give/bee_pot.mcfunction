@@ -1,0 +1,1 @@
+$give @s arrow{display:{Name:'{"text":"Bee Honey Pot (Team $(num))","italic":false}', Lore:['{"text":"put in offhand and shoot bow"}']},CustomTags:["BeeHoneyPot"], Team:$(num)}

@@ -1,6 +1,10 @@
 # clear @a
 # execute in minecraft:overworld run tp @a 8.59 -60.00 -0.09 0.68 0.52
 
+
+## Trigger Commands
+scoreboard objectives add honeyPot trigger
+
 #     from        to      type
 clone 0 1 0 0 1 0 8 -60 9 replace
 
