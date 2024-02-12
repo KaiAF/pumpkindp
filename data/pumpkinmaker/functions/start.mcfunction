@@ -1,11 +1,47 @@
-execute as @a[team=,limit=1] run team join player_1 @s
-execute as @a[team=player_1,limit=1] run scoreboard players set @s teams 0
-execute as @a[team=,limit=1] run team join player_2 @s
-execute as @a[team=player_2,limit=1] run scoreboard players set @s teams 0
-execute as @a[team=,limit=1] run team join player_3 @s
-execute as @a[team=player_3,limit=1] run scoreboard players set @s teams 0
-execute as @a[team=,limit=1] run team join player_4 @s
-execute as @a[team=player_3,limit=1] run scoreboard players set @s teams 0
+execute as @a[team=,limit=1] run team join soloPlayerTeam0 @s
+execute as @a[team=soloPlayerTeam0,limit=1] run tag @s add soloPlayerTeam0
+execute as @a[team=soloPlayerTeam0,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam1 @s
+execute as @a[team=soloPlayerTeam1,limit=1] run tag @s add soloPlayerTeam1
+execute as @a[team=soloPlayerTeam1,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam2 @s
+execute as @a[team=soloPlayerTeam2,limit=1] run tag @s add soloPlayerTeam2
+execute as @a[team=soloPlayerTeam2,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam3 @s
+execute as @a[team=soloPlayerTeam3,limit=1] run tag @s add soloPlayerTeam3
+execute as @a[team=soloPlayerTeam3,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam4 @s
+execute as @a[team=soloPlayerTeam4,limit=1] run tag @s add soloPlayerTeam4
+execute as @a[team=soloPlayerTeam4,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam5 @s
+execute as @a[team=soloPlayerTeam5,limit=1] run tag @s add soloPlayerTeam5
+execute as @a[team=soloPlayerTeam5,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam6 @s
+execute as @a[team=soloPlayerTeam6,limit=1] run tag @s add soloPlayerTeam6
+execute as @a[team=soloPlayerTeam6,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam7 @s
+execute as @a[team=soloPlayerTeam7,limit=1] run tag @s add soloPlayerTeam7
+execute as @a[team=soloPlayerTeam7,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam8 @s
+execute as @a[team=soloPlayerTeam8,limit=1] run tag @s add soloPlayerTeam8
+execute as @a[team=soloPlayerTeam8,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam9 @s
+execute as @a[team=soloPlayerTeam9,limit=1] run tag @s add soloPlayerTeam9
+execute as @a[team=soloPlayerTeam9,limit=1] run scoreboard players set @s teams 0
+
+execute as @a[team=,limit=1] run team join soloPlayerTeam10 @s
+execute as @a[team=soloPlayerTeam10,limit=1] run tag @s add soloPlayerTeam10
+execute as @a[team=soloPlayerTeam10,limit=1] run scoreboard players set @s teams 0
+
 
 scoreboard objectives modify teams displayname {"text": "Teams"}
 scoreboard objectives setdisplay sidebar teams

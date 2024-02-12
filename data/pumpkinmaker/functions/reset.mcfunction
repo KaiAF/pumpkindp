@@ -41,19 +41,28 @@ scoreboard objectives add honey_in_inventory dummy
 scoreboard objectives remove stats
 scoreboard objectives add stats dummy
 
-team remove player_1
-team remove player_2
-team remove player_3
-team remove player_4
-team add player_1
-team add player_2
-team add player_3
-team add player_4
 
-team modify player_1 color aqua
-team modify player_2 color blue
-team modify player_3 color dark_aqua
-team modify player_4 color red
+## Team creation
+team remove soloPlayerTeam0
+team remove soloPlayerTeam1
+team remove soloPlayerTeam2
+team remove soloPlayerTeam3
+team remove soloPlayerTeam4
+team remove soloPlayerTeam5
+team remove soloPlayerTeam6
+team remove soloPlayerTeam7
+team remove soloPlayerTeam8
+team remove soloPlayerTeam9
+team add soloPlayerTeam0
+team add soloPlayerTeam1
+team add soloPlayerTeam2
+team add soloPlayerTeam3
+team add soloPlayerTeam4
+team add soloPlayerTeam5
+team add soloPlayerTeam6
+team add soloPlayerTeam7
+team add soloPlayerTeam8
+team add soloPlayerTeam9
 
 scoreboard objectives remove teams
 scoreboard objectives add teams dummy
