@@ -1,1 +1,1 @@
-$execute if entity @s[tag=soloPlayerTeam$(compareNum)] return 1
+$execute if entity @s[tag=soloPlayerTeam$(compareNum)] run return 1
