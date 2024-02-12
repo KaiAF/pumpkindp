@@ -16,8 +16,8 @@ execute as @a run execute store result score @s ypos run data get entity @s Pos[
 execute as @a run execute store result score @s zpos run data get entity @s Pos[2]
 
 # Repeating Commands
-function pumpkinmaker:utils/tools/interaction_anylizer
-function pumpkinmaker:utils/tools/arrow_anylizer
+execute as @e[type=interaction] run function pumpkinmaker:utils/tools/interaction_anylizer
+execute as @e[type=arrow] run function pumpkinmaker:utils/tools/arrow_anylizer
 execute as @a run function pumpkinmaker:utils/tools/trigger_analize
 
 # Bee nest entrance
