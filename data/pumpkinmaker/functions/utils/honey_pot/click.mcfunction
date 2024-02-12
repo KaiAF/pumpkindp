@@ -3,6 +3,7 @@
 execute unless function pumpkinmaker:utils/honey_pot/player_bool0 run return fail
 
 # Has proper items.
+execute unless function pumpkinmaker:utils/honey_pot/item_bool run data remove entity @s interaction
 execute unless function pumpkinmaker:utils/honey_pot/item_bool run return fail
 
      # Remove interaction
