@@ -1,1 +1,0 @@
-execute as @e[tag=pumpkindb.honeypot.manager] run data remove entity @s CustomName
