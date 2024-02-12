@@ -4,7 +4,7 @@ execute if entity @s[tag=dev.mode] unless entity @s[scores={honeyPotNames=0..}] 
 execute if entity @s[tag=!dev.mode] unless entity @s[scores={honeyPotNames=0..}] run scoreboard players reset @s honeyPotNames
 
 execute if entity @s[tag=dev.mode,scores={honeyPotNames=0..}] as @e[tag=pumpkindb.honeypot.manager] run schedule function pumpkinmaker:utils/tools/func/disable_names 5s
-execute if entity @s[tag=dev.mode,scores={honeyPotNames=0..}] as @e[tag=pumpkindb.honeypot.manager] run data modify entity @s CustomNameVisible set value 1b
+execute if entity @s[tag=dev.mode,scores={honeyPotNames=0..}] as @e[tag=pumpkindb.honeypot.manager] run data modify entity @s CustomName set from entity @e[tag=pumpkindb.honeypot.text,limit=1,sort=nearest,distance=..0.49] CustomName
 execute if entity @s[tag=dev.mode,scores={honeyPotNames=0..}] run scoreboard players reset @s honeyPotNames
 
 # HoneyPot setter

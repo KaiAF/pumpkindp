@@ -1,1 +1,1 @@
-execute as @e[tag=pumpkindb.honeypot.manager] run data modify entity @s CustomNameVisible set value 0b
+execute as @e[tag=pumpkindb.honeypot.manager] run data remove entity @s CustomName
