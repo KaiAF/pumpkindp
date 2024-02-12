@@ -10,4 +10,4 @@ give @s golden_apple 1
 
 item replace entity @s armor.chest with iron_chestplate
 
-function pumpkinmaker:utils/spider_nest/init
+execute if data storage pumpkindb:game.values Toggles{IsSpiderDenActive: 0b} run function pumpkinmaker:utils/spider_nest/init
