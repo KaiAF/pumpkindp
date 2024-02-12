@@ -1,8 +1,12 @@
 # clear @a
 # execute in minecraft:overworld run tp @a 8.59 -60.00 -0.09 0.68 0.52
 
+## Scoreboards
 
-## Trigger Commands
+# Values
+scoreboard objectives add tempValues dummy
+
+# Trigger Commands
 scoreboard objectives add honeyPot trigger
 
 #     from        to      type
