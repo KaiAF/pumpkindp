@@ -1,3 +1,5 @@
+data modify storage pumpkindb:game.values Toggles.IsSpiderDenActive set value 1b
+
 execute store result score $1 spider_pos_ran run random value 1..5
 # execute store result score $2 spider_pos_ran run random value 1..5
 
