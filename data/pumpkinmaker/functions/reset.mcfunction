@@ -8,6 +8,7 @@ scoreboard objectives add tempValues dummy
 
 # Trigger Commands
 scoreboard objectives add honeyPot trigger
+scoreboard objectives add honeyPotNames trigger
 
 #     from        to      type
 clone 0 1 0 0 1 0 8 -60 9 replace
