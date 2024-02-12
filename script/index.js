@@ -49,33 +49,33 @@ const honeyPot_config = [
   },
   {
     index: 3,
+    X: 5,
+    Y: 66,
+    Z: -32
+  },
+  {
+    index: 4,
     X: 3,
     Y: 66,
     Z: -33
   },
   {
-    index: 4,
+    index: 5,
     X: 2,
     Y: 66,
     Z: -35
   },
   {
-    index: 5,
+    index: 6,
     X: 2,
     Y: 66,
     Z: -37
   },
   {
-    index: 6,
-    X: 3,
-    Y: 66,
-    Z: -39
-  },
-  {
     index: 7,
     X: 3,
     Y: 66,
-    Z: -37
+    Z: -39
   },
   {
     index: 8,
