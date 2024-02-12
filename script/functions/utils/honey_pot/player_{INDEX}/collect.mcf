@@ -8,4 +8,4 @@ execute as @s[team=player_1] run setblock ${cfg.X} ${cfg.Y} ${cfg.Z} decorated_p
 kill @e[type=item,nbt={Item: {id: "minecraft:decorated_pot"}}]
 
 kill @e[type=interaction,x=${cfg.X},y=${cfg.Y},z=${cfg.Z},distance=..1]
-summon interaction ${cfg.X} ${cfg.Y} ${cfg.Z} {Tags: ["honey_deposit", "player_${cfg.index == 0 ? (cfg.index + 1) + '_0' : cfg.index}"]}
+summon interaction ${cfg.X} ${cfg.Y} ${cfg.Z} {width:1, height:1.5, Tags: ["honey_deposit", "player_${cfg.index == 0 ? (cfg.index + 1) + '_0' : cfg.index}"]}

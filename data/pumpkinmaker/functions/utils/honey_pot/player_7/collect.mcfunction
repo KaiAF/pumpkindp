@@ -8,4 +8,4 @@ execute as @s[team=player_1] run setblock 3 66 -37 decorated_pot{sherds: ["minec
 kill @e[type=item,nbt={Item: {id: "minecraft:decorated_pot"}}]
 
 kill @e[type=interaction,x=3,y=66,z=-37,distance=..1]
-summon interaction 3 66 -37 {Tags: ["honey_deposit", "player_7"]}
+summon interaction 3 66 -37 {width:1, height:1.5, Tags: ["honey_deposit", "player_7"]}
