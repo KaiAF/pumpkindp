@@ -1,2 +1,3 @@
-# Applies the score to the new entity.
-$execute as @e[type=interaction,tag=pumpkindb.spidernest.spawn,sort=nearest,limit=1,distance=..0.45] run scoreboard players set @s tempValues $(applyNum)
+# Applies Size & Score to the new entity.
+execute as @s at @s positioned ~ ~1 ~ as @e[tag=pumpkindb.spidernest.nest,sort=nearest,limit=1] run scoreboard players set @s spiderNestLevel 7
+execute as @s at @s positioned ~ ~1 ~ as @e[tag=pumpkindb.spidernest.nest,sort=nearest,limit=1] run function pumpkinmaker:utils/spider_nest/handle
