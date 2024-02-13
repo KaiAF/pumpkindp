@@ -1,0 +1,1 @@
+give @s arrow{display:{Name:'{"text":"Spider Nest","italic":false}', Lore:['{"text":"put in offhand and shoot bow"}']},CustomTags:["SpiderNestSpawn"]}
