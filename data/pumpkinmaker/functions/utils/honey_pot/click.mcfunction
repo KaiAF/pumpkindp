@@ -6,7 +6,9 @@ execute unless function pumpkinmaker:utils/honey_pot/player_bool0 run return fai
 execute unless function pumpkinmaker:utils/honey_pot/item_bool run data remove entity @s interaction
 execute unless function pumpkinmaker:utils/honey_pot/item_bool run return fail
 
-execute as @s on target run tellraw @s "success ! :D"
+
+# This function returns true, if the item is succesfully removed from the players' inventory.
+execute as @s if function pumpkinmaker:utils/honey_pot/remove/remove_dripstone run scoreboard players add @s pot_level 1
 
 # Remove interaction
 data remove entity @s interaction
