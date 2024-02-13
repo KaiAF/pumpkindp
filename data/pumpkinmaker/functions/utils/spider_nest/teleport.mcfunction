@@ -1,5 +1,4 @@
-tp @s 466.61 66.00 23
-
+execute at @e[type=interaction,tag=spiderden] positioned ~ ~3 ~ run spreadplayers ~ ~ 4 4 under 68 false @s
 playsound entity.spider.step hostile @s ~ ~ ~ 0.3
 playsound entity.spider.step hostile @s ~ ~ ~ 0.3
 playsound entity.spider.step hostile @s ~ ~ ~ 0.3
