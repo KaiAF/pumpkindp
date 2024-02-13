@@ -8,6 +8,7 @@ scoreboard objectives add tempValues dummy
 
 # Trigger Commands
 scoreboard objectives add honeyPot trigger
+scoreboard objectives add spiderNest trigger
 scoreboard objectives add honeyPotNames trigger
 
 #     from        to      type
