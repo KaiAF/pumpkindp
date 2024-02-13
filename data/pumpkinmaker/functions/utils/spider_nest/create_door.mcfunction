@@ -1,5 +1,6 @@
 particle minecraft:smoke ~ ~ ~1 0 1 0 0 1 normal @a
-particle minecraft:smoke ~ ~ ~ 0 1 0 0 1 normal @a
+particle minecraft:smoke ~1 ~ ~ 0 1 0 0 1 normal @a
+particle minecraft:smoke ~-1 ~ ~ 0 1 0 0 1 normal @a
 particle minecraft:smoke ~ ~ ~-1 0 1 0 0 1 normal @a
 
 # particle minecraft:smoke ~ ~ ~1 0 1 0 0 1 normal @a
