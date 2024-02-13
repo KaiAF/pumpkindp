@@ -52,4 +52,4 @@ clear @s pumpkin_seeds
 # execute as @a run give @s pumpkin_seeds{CanPlaceOn: ["minecraft:farmland"]} 5
 
 execute as @e[type=interaction,tag=pumpkindb.honeypot.manager,scores={tempValues=1..}] run function pumpkinmaker:utils/honey_pot/load_pots0
-execute as @e[type=interaction,tag=pumpkindb.spidernest.spawn] run function pumpkinmaker:utils/spider_nest/load_nest0
+execute as @e[type=interaction,tag=pumpkindb.spidernest.spawn,limit=1,sort=random] run function pumpkinmaker:utils/spider_nest/load_nest0
