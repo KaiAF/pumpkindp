@@ -143,7 +143,7 @@ function lex(file, cfg = {}, fullCfg = []) {
 }
 
 (async function () {
-  readDir('functions/utils/spider_nest', nest_config);
+  //readDir('functions/utils/spider_nest', nest_config);
   //readDir('functions/utils/honey_pot', honeyPot_config);
-  readDir('functions/utils/pumpkin', [{}]);
+  //readDir('functions/utils/pumpkin', [{}]);
 })();
