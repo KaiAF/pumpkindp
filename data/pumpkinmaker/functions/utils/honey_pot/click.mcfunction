@@ -11,4 +11,4 @@ execute unless function pumpkinmaker:utils/honey_pot/item_bool run return fail
 
 
 
-execute on target run tellraw @s "success ! :D"
+execute as @s on target run tellraw @s "success ! :D"
