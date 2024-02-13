@@ -1,7 +1,3 @@
-execute as @a[team=,limit=1] run team join soloPlayerTeam0 @s
-execute as @a[team=soloPlayerTeam0,limit=1] run tag @s add soloPlayerTeam0
-execute as @a[team=soloPlayerTeam0,limit=1] run scoreboard players set @s teams 0
-
 execute as @a[team=,limit=1] run team join soloPlayerTeam1 @s
 execute as @a[team=soloPlayerTeam1,limit=1] run tag @s add soloPlayerTeam1
 execute as @a[team=soloPlayerTeam1,limit=1] run scoreboard players set @s teams 0
