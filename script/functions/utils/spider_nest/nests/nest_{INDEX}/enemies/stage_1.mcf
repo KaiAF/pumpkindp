@@ -1,4 +1,4 @@
-*{
+*(
   cfg.SPAWN_X = 0;
   cfg.SPAWN_Y = 0;
   cfg.SPAWN_Z = 0;
@@ -6,7 +6,7 @@
   cfg.SPAWN_Z_2 = 0;
   cfg.SPAWN_Z_3 = 0;
 
-  switch (cfg.index) \[
+  switch (cfg.index) {
     case 1:
       cfg.SPAWN_X = 451;
       cfg.SPAWN_Y = 452;
@@ -47,8 +47,8 @@
       cfg.SPAWN_Z_2 = 20;
       cfg.SPAWN_Z_3 = 28;
       break;
-  \]
-}
+  }
+)*
 scoreboard players set $countSpiders spider_pos_ran 0
 execute store result score $countSpiders spider_pos_ran run random value 1..2
 

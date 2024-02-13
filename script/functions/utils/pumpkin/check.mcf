@@ -1,7 +1,7 @@
-*{
-  cfg.data = [] 
-  for (let x = 27; x < 38; x++) \[
-    for (let z = -34; z < -24; z++) \[
+*(
+  cfg.data = []; 
+  for (let x = 27; x < 38; x++) {
+    for (let z = -34; z < -24; z++) {
       if (
         (x == 27 && z == -34) ||
         (x == 28 && z == -34) ||
@@ -30,12 +30,13 @@
         (x == 27 && z == -28) ||
         (x == 27 && z == -29) ||
         (x == 27 && z == -30)
-      ) \[
+      ) {
 
-      \] else \[
+      } else {
         cfg.data.push('execute if block ' + x + ' 65 ' + z + ' minecraft:pumpkin_stem[age=7] run setblock ' + x + ' 65 ' + z + ' pumpkin');
-      \]
-    \]
-  \]
-}
+      }
+    }
+  }
+)*
+
 ${cfg.data.join('\n')}

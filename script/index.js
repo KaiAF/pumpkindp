@@ -126,7 +126,7 @@ function readDir(name, cfg = null) {
 
 function lex(file, cfg = {}, fullCfg = []) {
   const regex = /\$\{((?:.*?|\s)*?)\}/gm;
-  const regexL = /\*\{((?:.*?|\s)*?)\}/gm;
+  const regexL = /\*\(((?:.*?|\s)*?)\)\*/gm;
   const str = file;
   let l;
   while ((l = regexL.exec(str)) !== null) {
@@ -144,6 +144,6 @@ function lex(file, cfg = {}, fullCfg = []) {
 
 (async function () {
   readDir('functions/utils/spider_nest', nest_config);
-  readDir('functions/utils/honey_pot', honeyPot_config);
+  //readDir('functions/utils/honey_pot', honeyPot_config);
   readDir('functions/utils/pumpkin', [{}]);
 })();

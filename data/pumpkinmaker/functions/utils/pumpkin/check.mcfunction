@@ -1,4 +1,5 @@
 
+
 execute if block 27 65 -33 minecraft:pumpkin_stem[age=7] run setblock 27 65 -33 pumpkin
 execute if block 27 65 -32 minecraft:pumpkin_stem[age=7] run setblock 27 65 -32 pumpkin
 execute if block 27 65 -31 minecraft:pumpkin_stem[age=7] run setblock 27 65 -31 pumpkin

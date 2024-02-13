@@ -2,7 +2,7 @@ advancement revoke @s only pumpkinmaker:crossbow
 execute store result score $randomValue stats run random value 1..10
 
 execute if score $randomValue stats matches 10 run summon item ~ ~ ~ {Item: {id: "pumpkin_seeds", Count: 1b}}
-*{
+*(
   cfg.ALLOWED_BLOCKS = ["dirt_path", "farmland", "dirt"]
   // cfg.blocks = cfg.ALLOWED_BLOCKS.map(a => 'execute if block ~ ~ ~ ' + a + ' run place template farm ~-1 67 ~-1')
   // cfg.blocks_1 = cfg.ALLOWED_BLOCKS.map(a => 'execute if block ~ ~-1 ~ ' + a + ' run place template farm ~-1 67 ~-1')
@@ -10,7 +10,7 @@ execute if score $randomValue stats matches 10 run summon item ~ ~ ~ {Item: {id:
   cfg.blocks = cfg.ALLOWED_BLOCKS.map(a => 'execute if block ~ ~ ~ ' + a + ' run fill ~-1 67 ~-1 ~1 67 ~1 farmland replace ' + a)
   cfg.blocks_1 = cfg.ALLOWED_BLOCKS.map(a => 'execute if block ~ ~-1 ~ ' + a + ' run fill ~-1 67 ~-1 ~1 67 ~1 farmland replace ' + a)
   cfg.blocks_2 = cfg.ALLOWED_BLOCKS.map(a => 'execute if block ~ ~-2 ~ ' + a + ' run fill ~-1 67 ~-1 ~1 67 ~1 farmland replace ' + a)
-}
+)*
 ${cfg.blocks.join('\n')}
 
 # done in case the player is jumping or in the air
