@@ -38,8 +38,3 @@ execute as @a[gamemode=!creative] if score @s xpos matches 33 if score @s zpos m
 
 # Spider nest exit
 execute as @e[tag=pumpkindb.spidernest.nest,scores={spiderNestLevel=..-1}] at @s run function pumpkinmaker:utils/spider_nest/create_door
-execute as @a[gamemode=!creative] if score @s opened_door matches 1 if score @s xpos matches 455 if score @s zpos matches 0 run function pumpkinmaker:utils/spider_nest/end
-execute as @a[gamemode=!creative] if score @s opened_door matches 2 if score @s xpos matches 483 if score @s zpos matches 2 run function pumpkinmaker:utils/spider_nest/end
-execute as @a[gamemode=!creative] if score @s opened_door matches 3 if score @s xpos matches 436 if score @s zpos matches 25 run function pumpkinmaker:utils/spider_nest/end
-execute as @a[gamemode=!creative] if score @s opened_door matches 4 if score @s xpos matches 465 if score @s zpos matches 47 run function pumpkinmaker:utils/spider_nest/end
-execute as @a[gamemode=!creative] if score @s opened_door matches 5 if score @s xpos matches 492 if score @s zpos matches 24 run function pumpkinmaker:utils/spider_nest/end
