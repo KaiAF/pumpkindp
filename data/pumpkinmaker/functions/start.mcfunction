@@ -52,5 +52,5 @@ clear @s pumpkin_seeds
 # execute as @a run give @s diamond_hoe{CanPlaceOn: ["minecraft:dirt_path"], CanDestroy: ["minecraft:pumpkin"]} 1
 # execute as @a run give @s pumpkin_seeds{CanPlaceOn: ["minecraft:farmland"]} 5
 
-execute as @e[type=interaction,tag=pumpkindb.honeypot.manager] run function pumpkinmaker:utils/honey_pot/load_pots0
+execute as @e[type=interaction,tag=pumpkindb.honeypot.manager,scores={tempValues=1..}] run function pumpkinmaker:utils/honey_pot/load_pots0
 function pumpkinmaker:utils/spider_nest/init
