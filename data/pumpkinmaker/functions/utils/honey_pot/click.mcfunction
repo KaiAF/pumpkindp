@@ -10,4 +10,5 @@ execute unless function pumpkinmaker:utils/honey_pot/item_bool run return fail
      data remove entity @s interaction
 
 
-tellraw @a "success ! :D"
+
+execute on target run tellraw @s "success ! :D"
