@@ -42,7 +42,6 @@ execute as @a[team=soloPlayerTeam10,limit=1] run scoreboard players set @s teams
 scoreboard objectives modify teams displayname {"text": "Teams"}
 scoreboard objectives setdisplay sidebar teams
 
-scoreboard players set @a pot_level 0
 scoreboard objectives remove spawned_nests
 scoreboard objectives add spawned_nests dummy
 
