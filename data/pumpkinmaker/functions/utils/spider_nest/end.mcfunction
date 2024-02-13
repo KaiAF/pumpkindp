@@ -1,3 +1,4 @@
+data modify storage pumpkindb:game.values Toggles.IsSpiderDenActive set value 0b
 execute at @s run clear @s netherite_sword
 execute at @s run clear @s cooked_beef
 execute at @s run clear @s golden_apple
