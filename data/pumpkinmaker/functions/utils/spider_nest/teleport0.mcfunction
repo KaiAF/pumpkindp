@@ -14,4 +14,4 @@ tag @s add spiderDenPlayerCheck
 execute as @s at @s unless entity @a[tag=!spiderDenPlayerCheck,distance=1.2..50] run function pumpkinmaker:utils/spider_nest/reset_nests
 tag @s remove spiderDenPlayerCheck
 
-function pumpkinmaker:utils/spider_nest/teleport1
+schedule function pumpkinmaker:utils/spider_nest/teleport1 2t
