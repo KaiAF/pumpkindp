@@ -11,7 +11,7 @@ give @s golden_apple 1
 item replace entity @s armor.chest with iron_chestplate
 
 tag @s add spiderDenPlayerCheck
-execute as @s at @s unless entity @a[tag=!spiderDenPlayerCheck,distance=1.2..50] run function pumpkinmaker:utils/spider_nest/reset_nests
+execute as @s at @s unless entity @a[tag=!spiderDenPlayerCheck,distance=1.2..100] run function pumpkinmaker:utils/spider_nest/reset_nests
 tag @s remove spiderDenPlayerCheck
 
 schedule function pumpkinmaker:utils/spider_nest/teleport1 2t append
